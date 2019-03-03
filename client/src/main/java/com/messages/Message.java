@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class Message implements Serializable {
 
     private String name;
-    private MessageType type;
+    private MessageType type;//此处MessageType是枚举类，包含了：文本，图片，音乐……在MessageType中
     private String msg;
     private int count;
     private ArrayList<User> list;
